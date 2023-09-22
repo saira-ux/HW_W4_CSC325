@@ -14,7 +14,13 @@ public class Staff
     {
         staffList = new StaffMember[6];
 
-        // TODO 1: Add 6 emploees to the staffList
+        staffList[0] = new Executive ("Moaath Alrajab", "25 New Tree Line", "516-101-3131", "000-000-1234", 150);
+        staffList[1] = new Intern ("Alex", "987 Wood Blvd.", "516-555-8374");
+        staffList[2] = new Intern ("Ahmad", "321 Elm Lane", "516-555-7282");
+        staffList[3] = new TempEmployee("Sam", "678 Fifth Ave.", "516-555-0690", "516-47-3625", 15.55);
+        staffList[4] = new TempEmployee("William", "789 Off Rocker", "516-555-0000", "631-20-3040", 18);
+        staffList[5] = new StaffEmployee("John", "456 Off Line", "516-555-0101", "516-65-4321", 1500);
+
 
         ((Executive)staffList[0]).awardBonus(500.00);
 
